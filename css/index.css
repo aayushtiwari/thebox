@@ -1,0 +1,134 @@
+heading{
+    display: flex;
+    flex-wrap:wrap;
+    width:100%;
+    position:relative;
+}
+body{
+background: linear-gradient(to right, #2b5876 0%,  #4e4376 100%);
+}
+heading div{
+    display:flex;
+    flex:1;
+    justify-content:center;
+    align-items:center;
+}
+heading nav{
+    flex:2;
+}
+heading nav ul {
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    margin-top:0px;
+}
+heading nav ul li {
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:8px;
+    padding-right:8px;
+    font-size: 1.1rem;
+    letter-spacing:0.7px;
+    font-family: 'Nunito', sans-serif;
+    color:white;
+    font-weight:600;
+}
+heading nav ul li:hover{
+    color: #e74c3c;
+}
+#intro{
+    position: relative;
+/*    border: 2px solid white;*/
+    height:60vh;
+    display:flex;
+    justify-content:center;
+    top:6vh;
+}
+#introt{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+}
+#introt h2{
+    display: flex;
+    justify-content:center;
+    color:white;
+    font-family: Montserrat;
+    font-size: 4rem;
+    text-align:center;
+    font-weight:800;
+    letter-spacing:1px;
+    flex-basis:100%;
+    margin-bottom: 0;
+    align-items:center;
+}
+#introt span{
+    color:#e74c3c;
+    font-family: Montserrat;
+    font-size: 4rem;
+    text-align:center;
+    font-weight:800;
+    letter-spacing:1px;
+}
+#introt div{
+    flex-basis: 100%;
+    display:flex;
+    justify-content:center;
+}
+#introt .type{
+    margin-top:20px;
+    display:flex;
+    align-items: center;
+}
+#introt .type input{
+    width:400px;
+    background:transparent;
+    border:2px solid #ee3d49;
+    font-size: 1.4rem;
+    padding:8px;
+    color: white;
+    font-family:Montserrat;
+}
+#introt .type i{
+    margin-left:10px;
+    color:#ee3d49;
+    cursor:pointer;
+}
+#introt .icons-c{
+margin-top: 35px;
+margin-bottom:25px;
+}
+#introt .icons{
+    flex-basis:70%;
+    display: -webkit-inline-flex;
+    display: -moz-inline-flex;
+    display: -ms-inline-flex;
+    display: -o-inline-flex;
+    display: inline-flex;
+    justify-content:space-around;
+}
+#introt .icons i{
+    color:white;
+}
+#introb button{
+    border-radius:0;
+    border:none;
+    margin:20px;
+    margin-left:20px;
+    margin-right:20px;
+    font-family: Montserrat;
+    font-size: 1.2rem;
+    padding:20px;
+    padding-left:80px;
+    padding-right:80px;
+    background:white;
+    color:#ee3d49;
+    font-weight:900;
+    cursor:pointer;
+    transition:background 0.5s,color 0.5s;
+    letter-spacing:0.5px;
+}
+#introb button:hover{
+    background:#ee3d49;
+    color:white;
+}
