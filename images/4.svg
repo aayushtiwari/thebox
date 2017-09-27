@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="no4"
+   width="41912.043"
+   height="55271.645"
+   viewBox="0 0 11.089229 14.623956"
+   version="1.1"
+   sodipodi:docname="4.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata11">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs9" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview7"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.01"
+     inkscape:cx="75627.554"
+     inkscape:cy="22007.032"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="no4" />
+  <path
+     d="m 0.44072867,11.653457 -0.156,-0.215 L 5.9917287,0.25845679 q 0.41,0.04 0.838,0.214 0.448,0.156 0.857,0.43 l -4.54,9.03600001 h 3.938 v -3.7 q 0.234,-0.04 0.468,-0.058 0.233,-0.02 0.448,-0.02 0.253,0 0.487,0.02 0.254,0.02 0.488,0.058 v 3.7 h 1.7920003 q 0.04,0.2150002 0.058,0.4300002 0.02,0.214 0.02,0.428 0,0.214 -0.02,0.448 -0.02,0.214 -0.058,0.41 H 8.9727287 v 2.668 q -0.254,0.04 -0.487,0.04 -0.214,0.018 -0.447,0.018 -0.234,0 -0.487,-0.02 -0.234,0 -0.468,-0.038 v -2.67 z"
+     style="font-size:19.47900009px;font-family:Aller;-inkscape-font-specification:'Aller, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0;word-spacing:0;fill:none;stroke:#ff1b1c;stroke-width:0.48699999;stroke-dasharray:400;stroke-dashoffset:0;stroke-opacity:1"
+     font-size="19.479"
+     letter-spacing="0"
+     word-spacing="0"
+     id="path2"
+     inkscape:connector-curvature="0" />
+  <style
+     id="style4">
+#no4 path{
+  stroke-dasharray:400;
+  stroke-dashoffset:0;
+  animation:dash 2s linear forwards;
+}
+@keyframes dash{
+  from{
+  stroke-dashoffset:400;
+  }
+  to{
+  stroke-dashoffset:0;
+  }
+}
+</style>
+</svg>

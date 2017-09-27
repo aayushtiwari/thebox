@@ -1,3 +1,8 @@
+body{
+  /*background:#2980b9;*/
+  background: linear-gradient(to right,#000000,#53346D);
+
+}
 heading{
     display: flex;
     flex-wrap:wrap;
@@ -5,7 +10,7 @@ heading{
     position:relative;
 }
 body{
-background: linear-gradient(to right, #2b5876 0%,  #4e4376 100%);
+margin: 0;
 }
 heading div{
     display:flex;
@@ -34,11 +39,10 @@ heading nav ul li {
     font-weight:600;
 }
 heading nav ul li:hover{
-    color: #e74c3c;
+    color: #ff1b1c;
 }
 #intro{
     position: relative;
-/*    border: 2px solid white;*/
     height:60vh;
     display:flex;
     justify-content:center;
@@ -63,7 +67,7 @@ heading nav ul li:hover{
     align-items:center;
 }
 #introt span{
-    color:#e74c3c;
+    color:#ff1b1c;
     font-family: Montserrat;
     font-size: 4rem;
     text-align:center;
@@ -83,7 +87,7 @@ heading nav ul li:hover{
 #introt .type input{
     width:400px;
     background:transparent;
-    border:2px solid #ee3d49;
+    border:2px solid #ff1b1c;
     font-size: 1.4rem;
     padding:8px;
     color: white;
@@ -91,7 +95,7 @@ heading nav ul li:hover{
 }
 #introt .type i{
     margin-left:10px;
-    color:#ee3d49;
+    color:#ff1b1c;
     cursor:pointer;
 }
 #introt .icons-c{
@@ -122,13 +126,62 @@ margin-bottom:25px;
     padding-left:80px;
     padding-right:80px;
     background:white;
-    color:#ee3d49;
+    color:#ff1b1c;
     font-weight:900;
     cursor:pointer;
     transition:background 0.5s,color 0.5s;
     letter-spacing:0.5px;
 }
 #introb button:hover{
-    background:#ee3d49;
+    background:#ff1b1c;
     color:white;
+}
+.steps{
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  top:40vh;
+}
+.stepsh{
+  flex-basis: 100%;
+  display:flex;
+  justify-content: center;
+}
+.stepsh h2{
+  color: white;
+  font-size: 3.3rem;
+  font-family: 'Nunito', sans-serif;
+  letter-spacing:0.7px;
+}
+.stepsb{
+display: flex;
+flex-wrap: wrap;
+}
+.stepsb div{
+  display:flex;
+  flex-wrap:wrap;
+  align-items: center;
+  padding-bottom:15px;
+}
+.stepsb p{
+  flex-basis:40%;
+  color:white;
+  font-family:Alegreya;
+  font-size: 1.3rem;
+  padding-left: 15px;
+}
+.stepsb img{
+  width:80px;
+}
+.img1 span{
+flex-basis:10%;
+}
+.img2 span{
+flex-basis:22%;
+}
+.img3 span{
+flex-basis:34%;
+}
+.img4 span{
+flex-basis:46%;
 }

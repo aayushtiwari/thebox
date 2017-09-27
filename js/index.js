@@ -14,5 +14,6 @@ function getRandomInt(min, max) {
 setInterval(()=>{
 $('#introt .icons i').css({"color":"white"});
 let i=getRandomInt(1,5);
-$(`#introt .icons i:nth-child(${i})`)[0].style.color="#ee3d49";
+$(`#introt .icons i:nth-child(${i})`)[0].style.color="#ff1b1c";
 },500);
+
