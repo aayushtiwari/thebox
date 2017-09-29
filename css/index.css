@@ -1,187 +1,200 @@
 body{
-  /*background:#2980b9;*/
-  background: linear-gradient(to right,#000000,#53346D);
-
+  background-color:white;
+  display:flex;
+  margin:0;
 }
-heading{
-    display: flex;
-    flex-wrap:wrap;
-    width:100%;
-    position:relative;
+#content{
+  flex-basis:80%
 }
-body{
-margin: 0;
+#nav{
+  flex-basis:97%;
+  margin-left:3%;
 }
-heading div{
-    display:flex;
-    flex:1;
-    justify-content:center;
-    align-items:center;
+header{
+display: flex;
+position: relative;
+flex-wrap:wrap;
+background:black;
 }
-heading nav{
-    flex:2;
+header div{
+  display:flex;
+  align-items:center;
 }
-heading nav ul {
-    display: flex;
-    list-style: none;
-    justify-content:space-around;
-    margin-top:0px;
-}
-heading nav ul li {
-    padding-top:4px;
-    padding-bottom:4px;
-    padding-left:8px;
-    padding-right:8px;
-    font-size: 1.1rem;
-    letter-spacing:0.7px;
-    font-family: 'Nunito', sans-serif;
-    color:white;
-    font-weight:600;
-}
-heading nav ul li:hover{
-    color: #ff1b1c;
-}
-#intro{
-    position: relative;
-    height:60vh;
-    display:flex;
-    justify-content:center;
-    top:6vh;
-}
-#introt{
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-}
-#introt h2{
-    display: flex;
-    justify-content:center;
-    color:white;
-    font-family: Montserrat;
-    font-size: 4rem;
-    text-align:center;
-    font-weight:800;
-    letter-spacing:1px;
-    flex-basis:100%;
-    margin-bottom: 0;
-    align-items:center;
-}
-#introt span{
-    color:#ff1b1c;
-    font-family: Montserrat;
-    font-size: 4rem;
-    text-align:center;
-    font-weight:800;
-    letter-spacing:1px;
-}
-#introt div{
-    flex-basis: 100%;
-    display:flex;
-    justify-content:center;
-}
-#introt .type{
-    margin-top:20px;
-    display:flex;
-    align-items: center;
-}
-#introt .type input{
-    width:400px;
-    background:transparent;
-    border:2px solid #ff1b1c;
-    font-size: 1.4rem;
-    padding:8px;
-    color: white;
-    font-family:Montserrat;
-}
-#introt .type i{
-    margin-left:10px;
-    color:#ff1b1c;
-    cursor:pointer;
-}
-#introt .icons-c{
-margin-top: 35px;
-margin-bottom:25px;
-}
-#introt .icons{
-    flex-basis:70%;
-    display: -webkit-inline-flex;
-    display: -moz-inline-flex;
-    display: -ms-inline-flex;
-    display: -o-inline-flex;
-    display: inline-flex;
-    justify-content:space-around;
-}
-#introt .icons i{
-    color:white;
-}
-#introb button{
-    border-radius:0;
-    border:none;
-    margin:20px;
-    margin-left:20px;
-    margin-right:20px;
-    font-family: Montserrat;
-    font-size: 1.2rem;
-    padding:20px;
-    padding-left:80px;
-    padding-right:80px;
-    background:white;
-    color:#ff1b1c;
-    font-weight:900;
-    cursor:pointer;
-    transition:background 0.5s,color 0.5s;
-    letter-spacing:0.5px;
-}
-#introb button:hover{
-    background:#ff1b1c;
-    color:white;
-}
-.steps{
-  position: relative;
+header ul{
+  list-style:none;
   display: flex;
-  flex-wrap: wrap;
-  top:40vh;
+  margin:0;
 }
-.stepsh{
+header li{
+  padding:15px;
+  font-family: 'Quattrocento', serif;
+  letter-spacing:3px;
+  font-weight:400;
+  font-size: 0.8rem;
+  color:white;
+  cursor:pointer;
+}
+header li:hover{
+padding-top:10px;
+font-weight:600;
+}
+header .nav{
+  flex-basis:90%;
+  justify-content:flex-end;
+}
+.main img{
+  max-width:97%;
+  max-height:10%;
+  margin-left: 3%;
+}
+sidebar{
+  display: flex;
+  flex-basis:20%;
+}
+sidebar .form{
+  position: relative;
+  top:30vh;
+flex-basis:100%;
+}
+sidebar .form div{
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+sidebar .input{
+  flex-basis:80%;
+  margin-left: 10%;
+  justify-content:flex-start!important;
+  padding-bottom: 15px;
+  background:white;
+}
+sidebar .input:nth-child(1){
+  padding-bottom: 25px;
+}
+sidebar .form div label{
   flex-basis: 100%;
   display:flex;
-  justify-content: center;
 }
-.stepsh h2{
-  color: white;
-  font-size: 3.3rem;
-  font-family: 'Nunito', sans-serif;
-  letter-spacing:0.7px;
+sidebar .form div label p{
+  font-size:0.8rem;
+  letter-spacing:2px;
+  font-family: 'Ubuntu', sans-serif;
+  margin:0;
+  position:absolute;
+  margin-left:10px;
+  margin-top:-8px;
+  background:white;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-.stepsb{
+ div input{
+  width:80%;
+  font-size:1rem;
+  padding:15px;
+  border:none;
+  border:1px solid black;
+  font-family: ubuntu;
+}
+sidebar .form .log{
+  display:flex;
+  flex-wrap: wrap;
+}
+sidebar .form .log div{
+  flex-basis:80%;
+  display:flex;
+  justify-content:space-around;
+}
+sidebar .log button:nth-child(1){
+  border:none;
+  background:none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing:2.3px;
+  border:1px solid black;
+  padding:7px;
+  padding-left:23px;
+  padding-right: 23px;
+  background:black;
+  color:white;
+  transition:color 0.5s,background 0.5s;
+  font-weight:400;
+}
+sidebar .log button:nth-child(2){
+  border:none;
+  background:none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing:2.3px;
+  border:1px solid black;
+  padding:10px;
+  padding-left:23px;
+  padding-right: 23px;
+  transition:color 0.5s,background 0.5s;
+}
+sidebar .log button:nth-child(1):hover{
+  color:black;
+  background:white;
+}
+sidebar .log button:nth-child(2):hover{
+  color:white;
+  background:black;
+}
+.form .forgot{
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  padding-top:4px;
+}
+.form .forgot div {
+flex-basis:80%;
 display: flex;
-flex-wrap: wrap;
+justify-content:flex-end;
 }
-.stepsb div{
+.form .forgot div a{
+  text-decoration:none;
+  color:black;
+}
+.form .forgot div a:hover{
+text-decoration:underline;
+}
+.social{
   display:flex;
   flex-wrap:wrap;
-  align-items: center;
-  padding-bottom:15px;
+  margin-bottom:30px;
+  margin-top:30px;
 }
-.stepsb p{
-  flex-basis:40%;
+.social button{
+  display:flex;
+  flex-basis:80%;
+  background: none;
+  border: none;
+  /*box-shadow:1px 1px 2px;*/
+}
+.social div{
+  flex-basis: 30%;
+  display:flex;
+  align-items:center;
+}
+.social p{
+  font-family:ubuntu;
+  font-size: 1rem;
+  font-weight:600;
+  color: white;
+}
+.social i{
   color:white;
-  font-family:Alegreya;
-  font-size: 1.3rem;
-  padding-left: 15px;
 }
-.stepsb img{
-  width:80px;
+.fac button{
+  background: #2980b9;
+  cursor:pointer;
 }
-.img1 span{
-flex-basis:10%;
+.fac button:hover{
+  background:#155D8C;
 }
-.img2 span{
-flex-basis:22%;
+.goo button{
+  background:#e74c3c;
+  cursor:pointer;
 }
-.img3 span{
-flex-basis:34%;
-}
-.img4 span{
-flex-basis:46%;
+.goo button:hover{
+  background:#C64335;
 }
