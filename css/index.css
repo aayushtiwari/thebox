@@ -45,7 +45,7 @@ header .nav{
 .main img{
   max-width:97%;
   max-height:10%;
-  margin-left: 3%;
+  margin-left:3%;
 }
 sidebar{
   display: flex;
@@ -112,8 +112,8 @@ sidebar .log button:nth-child(1){
   letter-spacing:2.3px;
   border:1px solid black;
   padding:7px;
-  padding-left:23px;
-  padding-right: 23px;
+  padding-left:27px;
+  padding-right: 27px;
   background:black;
   color:white;
   transition:color 0.5s,background 0.5s;
@@ -127,8 +127,8 @@ sidebar .log button:nth-child(2){
   letter-spacing:2.3px;
   border:1px solid black;
   padding:10px;
-  padding-left:23px;
-  padding-right: 23px;
+  padding-left:27px;
+  padding-right: 27px;
   transition:color 0.5s,background 0.5s;
 }
 sidebar .log button:nth-child(1):hover{
