@@ -1,200 +1,394 @@
-body{
-  background-color:white;
-  display:flex;
-  margin:0;
+body {
+    background-color: white;
+    display: flex;
+    margin: 0;
 }
-#content{
-  flex-basis:80%
+
+#content {
+    flex-basis: 80%
 }
-#nav{
-  flex-basis:97%;
-  margin-left:3%;
+
+#nav {
+    flex-basis: 97%;
+    margin-left: 3%;
 }
-header{
-display: flex;
-position: relative;
-flex-wrap:wrap;
-background:black;
+
+header {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    background: black;
 }
-header div{
-  display:flex;
-  align-items:center;
+
+header div {
+    display: flex;
+    align-items: center;
 }
-header ul{
-  list-style:none;
-  display: flex;
-  margin:0;
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
 }
-header li{
-  padding:15px;
-  font-family: 'Quattrocento', serif;
-  letter-spacing:3px;
-  font-weight:400;
-  font-size: 0.8rem;
-  color:white;
-  cursor:pointer;
+
+header li {
+    padding: 15px;
+    font-family: 'Quattrocento', serif;
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: white;
+    cursor: pointer;
 }
-header li:hover{
-padding-top:10px;
-font-weight:600;
+
+header li:hover {
+    color: #FF2C55;
 }
-header .nav{
-  flex-basis:90%;
-  justify-content:flex-end;
+
+header .nav {
+    flex-basis: 90%;
+    justify-content: flex-end;
 }
-.main img{
-  max-width:97%;
-  max-height:10%;
-  margin-left:3%;
+
+.main img {
+    max-width: 97%;
+    max-height: 10%;
+    margin-left: 3%;
 }
-sidebar{
-  display: flex;
-  flex-basis:20%;
+
+sidebar {
+    display: flex;
+    flex-basis: 20%;
 }
-sidebar .form{
-  position: relative;
-  top:30vh;
-flex-basis:100%;
+
+sidebar .form {
+    position: relative;
+    top: 30vh;
+    flex-basis: 100%;
 }
-sidebar .form div{
-  display:flex;
-  justify-content:center;
-  flex-wrap:wrap;
+
+sidebar .form div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
-sidebar .input{
-  flex-basis:80%;
-  margin-left: 10%;
-  justify-content:flex-start!important;
-  padding-bottom: 15px;
-  background:white;
+
+sidebar .input {
+    flex-basis: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: flex-start!important;
+    padding-bottom: 15px;
+    background: transparent;
 }
-sidebar .input:nth-child(1){
-  padding-bottom: 25px;
+
+sidebar .input:nth-child(1) {
+    padding-bottom: 25px;
 }
-sidebar .form div label{
-  flex-basis: 100%;
-  display:flex;
+
+sidebar .form div label {
+    flex-basis: 100%;
+    display: flex;
 }
-sidebar .form div label p{
-  font-size:0.8rem;
-  letter-spacing:2px;
-  font-family: 'Ubuntu', sans-serif;
-  margin:0;
-  position:absolute;
-  margin-left:10px;
-  margin-top:-8px;
-  background:white;
-  padding-left: 5px;
-  padding-right: 5px;
+
+sidebar .form div label p {
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -8px;
+    background: white;
+    padding-left: 5px;
+    padding-right: 5px;
 }
- div input{
-  width:80%;
-  font-size:1rem;
-  padding:15px;
-  border:none;
-  border:1px solid black;
-  font-family: ubuntu;
+
+div input {
+    width: 90%;
+    font-size: 1rem;
+    padding: 15px;
+    border: none;
+    border: 1px solid black;
+    font-family: ubuntu;
 }
-sidebar .form .log{
-  display:flex;
-  flex-wrap: wrap;
+
+sidebar .form .log {
+    display: flex;
+    flex-wrap: wrap;
 }
-sidebar .form .log div{
-  flex-basis:80%;
-  display:flex;
-  justify-content:space-around;
+
+sidebar .form .log div {
+    flex-basis: 90%;
+    display: flex;
+    justify-content: space-around;
 }
-sidebar .log button:nth-child(1){
-  border:none;
-  background:none;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 0.8rem;
-  letter-spacing:2.3px;
-  border:1px solid black;
-  padding:7px;
-  padding-left:27px;
-  padding-right: 27px;
-  background:black;
-  color:white;
-  transition:color 0.5s,background 0.5s;
-  font-weight:400;
+
+sidebar .log button:nth-child(1) {
+    border: none;
+    background: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.3px;
+    border: 1px solid #41294A;
+    padding: 7px;
+    padding-left: 27px;
+    padding-right: 27px;
+    background: #41294A;
+    color: white;
+    font-weight: 400;
+    cursor:pointer;
 }
-sidebar .log button:nth-child(2){
-  border:none;
-  background:none;
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 0.8rem;
-  letter-spacing:2.3px;
-  border:1px solid black;
-  padding:10px;
-  padding-left:27px;
-  padding-right: 27px;
-  transition:color 0.5s,background 0.5s;
+
+#login::before{
+    content: "LOGIN";
+    background:#FF2C55;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.3px;
+    padding: 7px;
+    padding-left: 27px;
+    padding-right: 27px;
+    color: white;
+    font-weight: 400;
+    position:absolute;
+    border:1px solid #FF2C55;
+    z-index:-1;
+    margin-top:-16px;
+    margin-left: -34px;
+    transition:all 0.15s ease-in-out;
 }
-sidebar .log button:nth-child(1):hover{
-  color:black;
-  background:white;
+#login::after{
+    content: "LOGIN";
+    background:#41EBDF;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.3px;
+    padding: 7px;
+    padding-left: 27px;
+    padding-right: 27px;
+    color: white;
+    font-weight: 400;
+    position:absolute;
+    border:1px solid #41EBDF;
+    z-index:-1;
+    margin-top:0px;
+    margin-left: -71px;
+     transition:all 0.15s ease-in-out;
 }
-sidebar .log button:nth-child(2):hover{
-  color:white;
-  background:black;
+#login:hover::before{
+  margin-top:-20px;
+  margin-left:-36px;
 }
-.form .forgot{
-  display: flex;
-  justify-content:center;
-  flex-wrap: wrap;
-  padding-top:4px;
+#login:hover::after{
+  margin-top:4px;
+  margin-left:-69px;
 }
+
+sidebar .log button:nth-child(2) {
+    border: none;
+    background: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.3px;
+    border: 1px solid black;
+    padding: 10px;
+    padding-left: 27px;
+    padding-right: 27px;
+    transition: color 0.3s, background 0.3s;
+     cursor:pointer;
+}
+
+sidebar .log button:nth-child(2):hover {
+    color: white;
+    background: #FF2C55;
+    border: 1px solid #FF2C55;
+}
+
+.form .forgot {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 4px;
+}
+
 .form .forgot div {
-flex-basis:80%;
-display: flex;
-justify-content:flex-end;
+    flex-basis: 80%;
+    display: flex;
+    justify-content: flex-end;
 }
-.form .forgot div a{
-  text-decoration:none;
-  color:black;
+
+.form .forgot div a {
+    text-decoration: none;
+    color: black;
 }
-.form .forgot div a:hover{
-text-decoration:underline;
+
+.form .forgot div a:hover {
+    text-decoration: underline;
 }
-.social{
-  display:flex;
-  flex-wrap:wrap;
-  margin-bottom:30px;
-  margin-top:30px;
+
+.social {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
-.social button{
-  display:flex;
-  flex-basis:80%;
-  background: none;
-  border: none;
-  /*box-shadow:1px 1px 2px;*/
+
+.social button {
+    display: flex;
+    flex-basis: 90%;
+    background: none;
+    border: none;
 }
-.social div{
-  flex-basis: 30%;
-  display:flex;
-  align-items:center;
+
+.social div {
+    flex-basis: 30%;
+    display: flex;
+    align-items: center;
 }
-.social p{
-  font-family:ubuntu;
-  font-size: 1rem;
-  font-weight:600;
-  color: white;
+
+.social p {
+    font-family: ubuntu;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
 }
-.social i{
-  color:white;
+
+.social i {
+    color: white;
 }
-.fac button{
-  background: #2980b9;
-  cursor:pointer;
+
+.fac button {
+    background: #2980b9;
+    cursor: pointer;
 }
-.fac button:hover{
-  background:#155D8C;
+
+.fac button:hover {
+    background: #155D8C;
 }
-.goo button{
-  background:#e74c3c;
-  cursor:pointer;
+
+.goo button {
+    background: #e74c3c;
+    cursor: pointer;
 }
-.goo button:hover{
-  background:#C64335;
+
+.goo button:hover {
+    background: #C64335;
+}
+
+#overlay {
+    position: absolute;
+    width: 50%;
+    height: 25%;
+    margin-top: 20%;
+    top: 0;
+    margin-left: 15%;
+    border-left: 4px solid white;
+    padding-left: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+}
+
+#overlay div {
+    display: flex;
+    flex-basis: 100%;
+}
+
+#overlay h3 {
+    display: flex;
+    color: white;
+    font-size: 2.9rem;
+    justify-content: center;
+    font-family: Ubuntu;
+    letter-spacing: 2px;
+    margin: 15px;
+    margin-bottom: 0;
+}
+
+#overlay #search input {
+    font-family: 'Ubuntu', serif;
+    letter-spacing: 0.5px;
+    margin-right: 20px;
+    background: none;
+    color: white;
+    border: none;
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+}
+
+#overlay #search {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#overlay #search i {
+    color: white;
+    cursor: pointer;
+}
+
+#details {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: -230px;
+    align-items: center;
+}
+
+.boxd {
+    display: flex;
+    flex-basis: 50%;
+    background: white;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.box {
+    padding: 10px;
+    padding-top: 80px;
+    padding-right: 0;
+}
+
+.box img {
+    width: 500px;
+}
+
+.single {
+    background: transparent;
+    align-items: stretch;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.single img {
+    width: 500px;
+}
+
+.dimg {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dtext {
+    display: flex;
+    justify-content: center;
+}
+
+.dtext p {
+    font-size: 1.2rem;
+    font-family: Quattrocento;
+    background: #41294A;
+    padding: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    margin-top: 20px;
+    letter-spacing:1px;
 }
