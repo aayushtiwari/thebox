@@ -179,7 +179,7 @@ sidebar .log button:nth-child(1) {
      transition:all 0.15s ease-in-out;
 }
 #login:hover::before{
-  margin-top:-20px;
+  margin-top:-19px;
   margin-left:-36px;
 }
 #login:hover::after{
@@ -193,25 +193,69 @@ sidebar .log button:nth-child(2) {
     font-family: 'Ubuntu', sans-serif;
     font-size: 0.8rem;
     letter-spacing: 2.3px;
-    border: 1px solid black;
-    padding: 10px;
+    border: 1px solid #41294A;
+    padding: 7px;
     padding-left: 27px;
     padding-right: 27px;
-    transition: color 0.3s, background 0.3s;
-     cursor:pointer;
+    background: #41294A;
+    color: white;
+    font-weight: 400;
+    cursor:pointer;
 }
 
-sidebar .log button:nth-child(2):hover {
+#signup::before{
+    content: "signup";
+    background:#41EBDF;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.3px;
+    padding: 7px;
+    padding-left: 27px;
+    padding-right: 27px;
     color: white;
-    background: #FF2C55;
-    border: 1px solid #FF2C55;
+    font-weight: 400;
+    position:absolute;
+    border:1px solid #41EBDF;
+    z-index:-1;
+    margin-top:-14px;
+    margin-left: -34px;
+    transition:all 0.15s ease-in-out;
 }
+#signup::after{
+    content: "signup";
+    background:#FF2C55;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 2.3px;
+    padding: 7px;
+    padding-left: 27px;
+    padding-right: 27px;
+    color: #FF2C55;
+    font-weight: 400;
+    position:absolute;
+    border:1px solid #FF2C55;
+    z-index:-1;
+    margin-top:-1px;
+    margin-left: -72px;
+     transition:all 0.15s ease-in-out;
+}
+#signup:hover::before{
+  margin-top:-17px;
+  margin-left:-36px;
+}
+#signup:hover::after{
+  margin-top:2px;
+  margin-left:-69px;
+}
+
 
 .form .forgot {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding-top: 4px;
+    padding-top: 10px;
 }
 
 .form .forgot div {
@@ -352,10 +396,12 @@ sidebar .log button:nth-child(2):hover {
     padding: 10px;
     padding-top: 80px;
     padding-right: 0;
+    height:800px;
 }
 
 .box img {
     width: 500px;
+    display:none;
 }
 
 .single {
@@ -382,13 +428,14 @@ sidebar .log button:nth-child(2):hover {
 }
 
 .dtext p {
-    font-size: 1.2rem;
-    font-family: Quattrocento;
-    background: #41294A;
+    font-size: 2.3rem;
+   font-family: 'Montserrat', sans-serif;
     padding: 12px;
     padding-left: 25px;
     padding-right: 25px;
-    color: white;
     margin-top: 20px;
     letter-spacing:1px;
+    color:#3498db;
+    font-weight:500;
+    display:none;
 }
