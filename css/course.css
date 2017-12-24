@@ -1,0 +1,243 @@
+body
+{
+    display: flex;
+
+    margin: 0;
+
+    background-color: white;
+
+    flex-wrap: wrap;
+}
+#body
+{
+    display: flex;
+
+    width: 100vw;
+
+    flex-wrap: wrap;
+}
+#content
+{
+    margin-left: 2.5%;
+
+    flex-basis: 80%;
+}
+#nav
+{
+    flex-basis: 97%;
+}
+
+header
+{
+    position: relative;
+
+    display: flex;
+
+    background: black;
+
+    flex-wrap: wrap;
+}
+header div
+{
+    display: flex;
+
+    align-items: center;
+}
+
+header ul
+{
+    display: flex;
+
+    margin: 0;
+
+    list-style: none;
+}
+
+header li
+{
+    font-family: 'Quattrocento', serif;
+    font-size: .8rem;
+    font-weight: 400;
+
+    padding: 15px;
+
+    cursor: pointer;
+    letter-spacing: 3px;
+
+    color: white;
+}
+
+header li:hover
+{
+    color: #ff2c55;
+}
+
+header .nav
+{
+    flex-basis: 90%;
+    justify-content: flex-end;
+}
+.main
+{
+    display: flex;
+
+    flex-wrap: wrap;
+}
+.left img
+{
+    max-width: 100%;
+    max-height: 100%;
+    transition:all 0.6s ;
+    transition-timing-function:cubic-bezier(0.645, 0.045, 0.355, 1);
+    transform: scale(1.1);
+}
+.left
+{
+    display: flex;
+
+    margin-left: 2.5%;
+
+    flex-basis: 65%;
+}
+.mainc
+{
+    display: flex;
+    overflow: hidden;
+}
+.maint
+{
+    position: absolute;
+    top: 32%;
+    left: 2.5%;
+
+    display: flex;
+
+    width: 65%;
+
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.maint h3
+{
+    font-family: Montserrat;
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 86px;
+
+    display: flex;
+
+    width: 100%;
+    margin-bottom: 0;
+
+    text-align: center;
+    letter-spacing: 3px;
+
+    color: white;
+
+    justify-content: center;
+    flex-basis: 100%;
+}
+.maint button
+{
+    border: 3px solid white;
+    border-radius: 4px;
+    background: none;
+    cursor:pointer;
+    display: none;
+}
+.maint button p
+{
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-weight: 600;
+
+    margin: 8px;
+
+    color: white;
+}
+.maint button:hover{
+  background:white;
+}
+.maint button:hover > p {
+  color:black;
+}
+
+.right
+{
+    display: flex;
+
+    flex-wrap: wrap;
+    flex-basis: 32.5%;
+}
+.cont img
+{
+    max-width: 100%;
+    transform: scale(1.1);
+    transition:all 0.6s ;
+    transition-timing-function:cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.img
+{
+    display: flex;
+    width: 90%;
+    margin: 2.5%;
+    justify-content: center;
+    overflow: hidden;
+}
+.mainc:hover .maint button{
+  display:block;
+}
+.mainc:hover>img{
+  transform: scale(1);
+}
+.img:hover>img{
+  transform: scale(1);
+}
+.cont
+{
+    display: flex;
+
+    justify-content: center;
+}
+.cont .text{
+  position: absolute;
+  margin-top:6%;
+  display: flex;
+flex-wrap:wrap;
+}
+.text h3{
+  color: white;
+  font-family: Montserrat;
+  font-size: 2rem;
+  margin-bottom:10px;
+  flex-basis:100%;
+  text-align: center;
+  font-weight:400;
+}
+.text div{
+  flex-basis:100%;
+  display:flex;
+  justify-content: center;
+}
+.text button{
+  border: 3px solid white;
+    border-radius: 4px;
+    background: none;
+    cursor:pointer;
+    display: none;
+}
+.text button:hover{
+  background:white;
+}
+.text button:hover > p {
+  color:black;
+}
+.img:hover >.text button{
+  display:block;
+}
+.text p{
+  margin: 8px;
+  color:white;
+  font-family: Montserrat;
+  font-size: 1rem;
+}
