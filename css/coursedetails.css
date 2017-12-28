@@ -1,0 +1,223 @@
+body
+{
+    display: flex;
+
+    margin: 0;
+
+    background-color: white;
+
+    flex-wrap: wrap;
+}
+#body
+{
+    display: flex;
+
+    width: 100vw;
+
+    flex-wrap: wrap;
+}
+#content
+{
+    margin-left: 2.5%;
+
+    flex-basis: 80%;
+}
+#nav
+{
+    flex-basis: 97%;
+}
+
+header
+{
+    position: relative;
+
+    display: flex;
+
+    background: black;
+
+    flex-wrap: wrap;
+}
+header div
+{
+    display: flex;
+
+    align-items: center;
+}
+
+header ul
+{
+    display: flex;
+
+    margin: 0;
+
+    list-style: none;
+}
+
+header li
+{
+    font-family: 'Quattrocento', serif;
+    font-size: .8rem;
+    font-weight: 400;
+
+    padding: 15px;
+
+    cursor: pointer;
+    letter-spacing: 3px;
+
+    color: white;
+}
+
+header li:hover
+{
+    color: #ff2c55;
+}
+
+header .nav
+{
+    flex-basis: 90%;
+    justify-content: flex-end;
+}
+.main{
+  display:flex;
+  flex-wrap:wrap;
+}
+.header{
+  flex-basis:57.5%;
+  margin-left: 2.5%;
+}
+.header img{
+  max-width:100%;
+}
+#enroll{
+  position:absolute;
+  top:40vh;
+  width:57.5%;
+  display:flex;
+  justify-content:center;
+  z-index:2;
+}
+
+.text{
+  flex-basis:40%;
+}
+#enroll button::before{
+    content: "Enroll";
+    background:#FF2C55;
+    border: none;
+    margin:4px;
+  font-size: 1.7rem;
+  font-family:Montserrat;
+    padding: 9px;
+    padding-left: 31px;
+    padding-right: 31px;
+    color:#FF2C55;
+    font-weight: 400;
+    position:absolute;
+    border:1px solid #FF2C55;
+    z-index:-1;
+    margin-top:-11px;
+    margin-left: -59px;
+    transition:all 0.15s ease-in-out;
+}
+#enroll button::after{
+    content: "Enroll";
+    background:#41EBDF;
+    border: none;
+  font-size: 1.7rem;
+  font-family:Montserrat;
+    padding: 9px;
+    padding-left: 31px;
+    padding-right: 31px;
+    color: #41EBDF;
+    font-weight: 400;
+    position:absolute;
+    border:1px solid #41EBDF;
+    z-index:-1;
+    margin-top:-42px;
+    margin-left: -82px;
+     transition:all 0.15s ease-in-out;
+}
+#enroll button:hover::before{
+  margin-top:-14px;
+  margin-left:-56px;
+}
+#enroll button:hover::after{
+  margin-top:-39px;
+  margin-left:-85px;
+}
+#enroll button{
+  background:#41294A;
+  border: none;
+  cursor:pointer;
+}
+#enroll p{
+  margin:10px;
+  padding-left:15px;
+  padding-right:15px;
+  font-size: 1.7rem;
+  font-family:Montserrat;
+  background:#41294A;
+  color:white;
+}
+.text{
+  flex-wrap:wrap;
+  align-items:flex-start;
+}
+.text h3{
+  font-size: 2.3rem;
+  font-weight:100;
+  letter-spacing:1px;
+  text-align:center;
+  font-family:Montserrat;
+  color: #3B4144;
+  margin-bottom:7px;
+}
+.text p{
+  font-size: 1.2rem;
+font-family: Montserrat;
+color: #54636A;
+line-height: 30px;
+padding:35px;
+margin-top:0px;
+margin-bottom:0px;
+}
+#details{
+  width:97.5%;
+  margin-left: 2.5%;
+  display:flex;
+  background:black;
+}
+#details div{
+  flex-basis:33.333%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.sell span{
+   font-family:Montserrat;
+   background: #f4c150;
+   color: black;
+    border-radius: 3px;
+    font-size: 1rem;
+    padding: 5px 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.ratting h2{
+  color:white;
+  font-family:Montserrat;
+  font-size: 2.3rem;
+}
+.students h2{
+  font-size: 2rem;
+  font-family:Montserrat;
+  color:white;
+  text-align:center;
+}
+.students p{
+  font-family:Montserrat;
+  color:white;
+  text-align:center;
+  padding-left:8px;
+  padding-right:8px;
+}
