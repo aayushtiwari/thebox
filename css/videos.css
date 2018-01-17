@@ -1,0 +1,249 @@
+body
+{
+    display: flex;
+
+    margin: 0;
+
+    background-color: white;
+
+    flex-wrap: wrap;
+}
+#body
+{
+    display: flex;
+
+    width: 100vw;
+
+    flex-wrap: wrap;
+}
+#content
+{
+    margin-left: 2.5%;
+
+    flex-basis: 80%;
+}
+#nav
+{
+    flex-basis: 97%;
+}
+
+header
+{
+    position: relative;
+
+    display: flex;
+
+    background: black;
+
+    flex-wrap: wrap;
+}
+header div
+{
+    display: flex;
+
+    align-items: center;
+}
+
+header ul
+{
+    display: flex;
+
+    margin: 0;
+
+    list-style: none;
+}
+
+header li
+{
+    font-family: 'Quattrocento', serif;
+    font-size: .8rem;
+    font-weight: 400;
+
+    padding: 15px;
+
+    cursor: pointer;
+    letter-spacing: 3px;
+
+    color: white;
+}
+
+header li:hover
+{
+    color: #ff2c55;
+}
+
+header .nav
+{
+    flex-basis: 90%;
+    justify-content: flex-end;
+}
+.footer {
+  background-color: #1F1D1D;
+  margin-left:2.5%;
+  overflow: hidden;
+  padding: 0;
+  width: 96.5%;
+}
+.footer div {
+  margin: 0 auto;
+  max-width: 960px;
+  overflow: hidden;
+  padding: 32px 0 16px;
+}
+.footer div ul {
+  display: inline-block;
+  list-style: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: auto;
+}
+.footer div ul li:first-child {
+  float: left;
+  margin: 0 10px;
+  padding: 0;
+  width: 460px;
+}
+.footer div ul li {
+  float: left;
+  margin: 0 0 0 10px;
+  padding: 0 0 0 20px;
+  width: 440px;
+}
+.footer div ul li h1 {
+  color: #FFFFFF;
+  font-family: 'Quattrocento', serif;
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 32px;
+  margin: 0 0 44px;
+  padding: 0;
+  text-align: left;
+  text-transform: uppercase;
+  width: auto;
+}
+.footer div ul li a {
+  display: block;
+  height: 258px;
+  margin: 0;
+  position: relative;
+  padding: 0;
+  width: 460px;
+}
+.footer div ul li a img {
+  cursor: pointer;
+  filter: alpha(opacity=100);/* Needed for IE8 and old versions */
+  opacity: 1.0;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+.footer div ul li a:hover img {
+  filter: alpha(opacity=70);/* Needed for IE8 and old versions */
+  opacity: 0.7;
+}
+.footer div ul li a span {
+  background: url(../images/icons.png) no-repeat 0 -152px;
+  display: block;
+  height: 72px;
+  left: 199px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 94px;
+  width: 62px;
+}
+.footer div ul li a:hover span {
+  background: url(../images/icons.png) no-repeat 0 -226px;
+}
+.footer div ul li ul {
+  display: inline-block;
+  list-style: none outside none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  width: 440px;
+}
+.footer div ul li ul li {
+  border-top: 1px solid #A3A3A3;
+  float: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 39px 10px 38px 0;
+  width: 440px;
+}
+.footer div ul li ul li:first-child {
+  border: medium none;
+  margin: 0;
+  padding: 0 0 38px;
+  width: 440px;
+}
+.footer div ul li ul li a {
+  display: block;
+  float: left;
+  height: 90px;
+  margin: 0 20px 0 0;
+  padding: 0;
+  width: 100px;
+}
+.footer div ul li ul li a img {
+  cursor: pointer;
+  filter: alpha(opacity=100);/* Needed for IE8 and old versions */
+  opacity: 1.0;
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+.footer div ul li ul li a img:hover {
+  filter: alpha(opacity=70);/* Needed for IE8 and old versions */
+  opacity: 0.7;
+}
+.footer div ul li ul li h1 {
+  color: #A3A3A3;
+  float: left;
+  font-family: 'Quattrocento', serif;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 23px;
+  margin: 0;
+  padding: 4px 0 8px;
+  text-align: left;
+  text-transform: uppercase;
+  width: 310px;
+}
+.footer div ul li ul li span {
+  color: #FFFFFF;
+  display: block;
+  float: left;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 14px;
+  margin: 0 0 10px;
+  padding: 0;
+  text-align: left;
+  text-transform: uppercase;
+  width: 310px;
+}
+.footer div ul li ul li a.more {
+  background-color: #3c0f38;
+  color: #ffffff;
+  display: block;
+  float: right;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: normal;
+  height: 31px;
+  line-height: 31px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 120px;
+  text-decoration:none;
+}
+.footer div ul li ul li a.more:hover {
+  background-color: #620031;
+}
